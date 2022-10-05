@@ -27,7 +27,7 @@ fetch(
       },
     };
 
-    var chart = ApexCharts(document.querySelector("#chart"), options);
+    var chart = new ApexCharts(document.querySelector("#chart"), options);
 
     chart.render();
   });
